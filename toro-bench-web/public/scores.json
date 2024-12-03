@@ -1,0 +1,38 @@
+[
+    {
+        "id": "test",
+        "rank": 1,
+        "logical_processors": 16,
+        "GPU": "AMD Radeon(TM) Graphics",
+        "OS": "Windows",
+        "browser": "Google Chrome",
+        "total": 90031,
+        "JavaScript": 52239,
+        "layout": 1490,
+        "SVG": 7619,
+        "periodic": 4761,
+        "tree": 5184,
+        "birds": 2908,
+        "invaders": 1174,
+        "collision": 1765,
+        "detailed_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36w"
+    },
+    {
+        "id": "test2",
+        "rank": 2,
+        "logical_processors": 16,
+        "GPU": "AMD Radeon(TM) Graphics",
+        "OS": "Windows",
+        "browser": "Google Chrome",
+        "total": 83102,
+        "JavaScript": 52239,
+        "layout": 1490,
+        "SVG": 7619,
+        "periodic": 4761,
+        "tree": 5184,
+        "birds": 6908,
+        "invaders": 5174,
+        "collision": 6765,
+        "detailed_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36w"
+    }
+]

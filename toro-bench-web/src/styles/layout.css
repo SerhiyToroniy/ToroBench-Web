@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 15px 0px;
+    box-shadow: 0px 0px 30px -10px;
+    min-width: fit-content;
+}
+
+.container {
+    margin-left: calc(20% - 5px);
+    margin-right: 20%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-link-run {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    background: linear-gradient(to left, #e66465, #BE4EFD);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.nav-link-run:hover {
+    background: linear-gradient(to left, #e66465, #BEBBFD);
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #BE4EFD;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+section {
+    padding: 40px 20%;
+}
+
+.app-name {
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.app-name:hover {
+    user-select: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #CACACA;
+    transition: 0.5s ease all;
+}
+
+.gradient-text {
+    width: fit-content;
+    background: linear-gradient(to left, #e66465, #BE4EFD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin: 0 15px;
+    }
+
+    section {
+        padding: 40px 15px;
+    }
+    
+    .app-name{
+        display: none;
+    }
+}
